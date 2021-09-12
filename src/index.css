@@ -1,0 +1,20 @@
+html,
+body{
+  font-family: 'Mirosoft YaHei';
+  color: #333;
+  background-color: #fff;
+}
+* {
+  box-sizing: border-box;
+  /* 去掉 轮播图 chrome 浏览器的错误警告 */
+  touch-action: pan-y;
+}
+h2, p{
+  margin: 0;
+}
+html,
+body,
+#root,
+.App{
+  height: 100%; 
+}

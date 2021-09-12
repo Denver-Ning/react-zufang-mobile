@@ -1,0 +1,119 @@
+.swiper {
+  height: 212px;
+  position: relative;
+  .search-box {
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    .search-left {
+      background-color: #fff;
+      padding: 5px;
+      flex: 1;
+      border-radius: 5px;
+      .search-site {
+        color: #333;
+      }
+      .search-input {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        margin-left: 20px;
+        padding-left: 15px;
+        border-left: 1px solid #ccc;
+        input {
+          border: none;
+        }
+        .iconfont {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .icon-map {
+      color: #fff;
+      margin-left: 10px;
+      font-size: 24px;
+    }
+  }
+}
+.nav {
+  padding-top: 10px;
+  img {
+    width: 48px;
+  }
+  h2 {
+    font-size: 13px;
+    font-weight: normal;
+  }
+  .am-flexbox-item {
+    text-align: center;
+  }
+}
+.groups {
+  margin-top: 10px;
+  padding: 15px 10px;
+  background-color: #f6f6f6;
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    .more {
+      font-size: 14px;
+      font-weight: normal;
+      color: #ccc;
+      float: right;
+    }
+  }
+  .group-item {
+    img {
+      width: 60px;
+    }
+  }
+  .am-flexbox-align-stretch {
+    margin-bottom: 10px;
+    .am-grid-item:first-child {
+      margin-right: 10px;
+    }
+    .am-grid-item {
+      background: #fff;
+    }
+  }
+  .am-grid .am-flexbox {
+    background: none;
+  }
+}
+.news {
+  .title {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 0 0px 15px;
+  }
+  .news-item {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border: none;
+    }
+    .news-img {
+      img {
+        width: 150px;
+      }
+    }
+    .news-label {
+      margin-left: 5px;
+      .news-title {
+        font-weight: 600;
+      }
+      .news-from {
+        color: #969799;
+        font-size: 14px;
+        width: 100%;
+      }
+    }
+  }
+}
